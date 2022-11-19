@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.navbar-list {
+    padding: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Gibran {
+    background-image: url(/Assets/Gambar/DSC09089\ 1.jpg);
+    height: 30em;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    color: black;
+    background-color: green;
+
+}
+
+span {
+    color: lightgreen;
+}
+
+h2 {
+    color: white;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: green;
+    height: 5rem;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+ul li:hover {
+    color: green;
+    transition: .4s;
+    background-color: white;
+
+}
+
+ul li:hover a {
+    color: green;
+
+}
+
+article {
+    text-align: justify;
+    background-color: green;
+    color: white;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-box {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+h3 {
+    text-align: center;
+    margin: 2rem;
+    color: white;
+}
+
+.about-container-card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 60px;
+    background: rgb(42, 160, 38);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(94, 94, 94);
+    transition: 500ms;
+}
+
+.About h1 {
+    margin: 3rem 0 0 3rem;
+}
+
+.About p {
+    margin: 0 3rem 3rem 3rem;
+}
+
+.about-container-card:hover {
+    transform: scale(1.1, 1.1);
+    background-color: rgb(0, 213, 213);
+}
+
+.stories {
+    background-color: darkgreen;
+    padding: 2rem;
+    width: 100%;
+}
+
+.stories-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+
+}
+
+.stories-container-card {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 60px;
+    background: rgb(42, 160, 38);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(94, 94, 94);
+    transition: 500ms;
+}
+
+
+.stories-container-card:hover {
+    transform: scale(1.1, 1.1);
+    background-color: rgb(0, 213, 213);
+    transition: 500ms;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(3, 75, 3);
+    transition: 500ms;
+}
+
+footer a {
+    margin-inline: 5vh;
+}
+
+.icon-social-media {
+    justify-content: center;
+    display: flex;
+}
+
+footer :hover {
+    transform: scale(1.1, 1.1);
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 75, 3);
+
+}
+
+.toggle {
+    display: none;
+    list-style-type: none;
+    margin: 0 20px;
+}
+
